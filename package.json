@@ -1,0 +1,14 @@
+{
+  "name": "airline-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "system.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest --coverage --verbose",
+    "dev": "NODE_ENV=development nodemon system.js",
+    "start": "NODE_ENV=production node system.js"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.3.0"
+  }
+}
