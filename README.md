@@ -2,4 +2,4 @@
 
 ## UML Digeam
 
-![socket](./img/Screenshot%20(120).png)
+![socket](./img/Screenshot%20(121).png)
