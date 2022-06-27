@@ -9,6 +9,9 @@
     "start": "NODE_ENV=production node system.js"
   },
   "dependencies": {
-    "@faker-js/faker": "^7.3.0"
+    "@faker-js/faker": "^7.3.0",
+    "dotenv": "^16.0.1",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1"
   }
 }
