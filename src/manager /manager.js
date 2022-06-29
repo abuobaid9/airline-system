@@ -13,7 +13,7 @@ const systemConnection = io.connect(host);
 systemConnection.on('arrived', (payload)=>{
     setTimeout(() => {
         console.log(`Manager: we're greatly thankful for the amazing flight, ${payload.Details.pilot}`);            
-    },);
+    },50);
 })
 
 setInterval(() => {
