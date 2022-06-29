@@ -31,3 +31,9 @@ function handleNewFlight2(payload){
     },7000);
 
 }
+systemConnection2.emit('get-all');
+systemConnection2.emit('flight',handleFlight);
+function handleFlight (payload){
+    console.log(`Pilot:Sorry i didn't catch this flight ID ${payload.id} `);
+    socket.emit('received', payload);
+}
